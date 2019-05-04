@@ -23,6 +23,7 @@ set(HDRS_DUTILS
 set(SRCS_DUTILS
   DUtils/Random.cpp
   DUtils/Timestamp.cpp)
+set(CMAKE_PREFIX_PATH "/home/rankin/Downloads/opencv-2.4.13.3/installed/")
 
 find_package(OpenCV 3.0 QUIET)
 if(NOT OpenCV_FOUND)
